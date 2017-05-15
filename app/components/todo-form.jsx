@@ -1,7 +1,8 @@
+import Abs from 'components/abs';
 import React from 'react';
 import Todos from 'components/todos';
 let id = 0;
-export default class TodoForm extends React.Component {
+export default class TodoForm extends Abs {
   state = {
     todos: [],
     todo: {},
